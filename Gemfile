@@ -2,10 +2,14 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
-# Rails' built-in testing framework
-gem 'rspec-rails', '~> 3.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
+# A simple HTTP and REST client for Ruby.
+gem 'rest-client'
+# Library for stubbing and setting expectations on HTTP requests in Ruby.
+gem 'webmock'
+# Rails' built-in testing framework
+gem 'rspec-rails', '~> 3.5'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
