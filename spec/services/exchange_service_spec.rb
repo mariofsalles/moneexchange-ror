@@ -1,6 +1,6 @@
 require 'spec_helper'
 require 'json'
-require './app/services/exchange_service'
+require './app/services/exchange_service.rb'
 
 describe 'Currency' do
   it 'exchange' do
