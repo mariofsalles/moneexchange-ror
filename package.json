@@ -1,4 +1,5 @@
 {
+  "engines": {"node":">=6"},
   "name": "MoneeXchange",
   "private": true,
   "dependencies": {
